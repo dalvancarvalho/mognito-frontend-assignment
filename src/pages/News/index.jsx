@@ -16,13 +16,14 @@ export function News({ data }) {
         <div>
           {data.news.map((item, index) => (
             <Link
-              className="flex items-center gap-4 group/link"
+              className="flex items-center gap-3 group/link"
               key={index}
               to={'/news/' + index}
             >
               <FontAwesomeIcon
                 className="mb-2 group-hover/link:translate-x-1 transition-transform"
                 icon={faArrowRight}
+                size="xs"
               />
               <h3 className="mb-2 font-semibold hover:underline">{item.title}</h3>
             </Link>
