@@ -2,7 +2,7 @@
 
 export function Header() {
   return (
-    <header>
+    <header className="flex">
       <h1>logo</h1>
       <nav>navigation</nav>
     </header>
