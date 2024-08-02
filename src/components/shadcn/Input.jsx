@@ -1,9 +1,10 @@
-import * as React from 'react'
+/* Input.jsx */
 
-import { cn } from '../utils'
+import { forwardRef } from 'react'
+import { cn } from '../../utils'
 
 const Input =
-  React.forwardRef <
+  forwardRef <
   HTMLInputElement >
   (({ className, type, ...props }, ref) => {
     return (

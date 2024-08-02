@@ -1,3 +1,7 @@
+/* Fonts */
+@import '@fontsource-variable/platypi';
+@import '@fontsource-variable/red-hat-text';
+
 /* Tailwind CSS directives */
 @tailwind base;
 @tailwind components;
