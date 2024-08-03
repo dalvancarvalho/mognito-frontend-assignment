@@ -6,3 +6,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .debug {
+    @apply outline-1 outline-dashed outline-orange-500;
+  }
+
+  .display-font {
+    @apply font-platypi font-bold tracking-tighter;
+  }
+
+  .nav-item {
+    @apply font-semibold text-sm md:text-base hover:text-slate-600 hover:underline underline-offset-2 transition-colors;
+  }
+
+  .social {
+    @apply text-slate-700 hover:text-slate-600 transition-colors;
+  }
+}

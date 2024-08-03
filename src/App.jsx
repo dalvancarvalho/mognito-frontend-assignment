@@ -16,7 +16,7 @@ export default function App() {
         <AppRoutes />
       </Main>
       <Footer />
-      {isDevEnvironment && <TwBreakpointMonitor />}
+      {/* {isDevEnvironment && <TwBreakpointMonitor position="top-center" />} */}
     </div>
   )
 }

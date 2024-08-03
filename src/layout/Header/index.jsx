@@ -4,24 +4,18 @@ export function Header() {
   return (
     <header className="w-full h-16 border-b">
       <div className="container m-auto px-4 xl:px-24 h-full flex items-center justify-between">
-        <span className="font-platypi font-bold text-3xl tracking-tighter">
+        <h1 className="display-font text-2xl md:text-3xl">
           <a href="#">the News.</a>
-        </span>
+        </h1>
         <nav>
           <ul className="flex gap-6">
             <li>
-              <a
-                className="font-semibold text-sm md:text-base hover:text-slate-600 transition-colors duration-300"
-                href="#"
-              >
+              <a className="nav-item" href="#">
                 About us
               </a>
             </li>
             <li>
-              <a
-                className="font-semibold text-sm md:text-base hover:text-slate-600 transition-colors duration-300"
-                href="#"
-              >
+              <a className="nav-item" href="#">
                 Newsletter
               </a>
             </li>
