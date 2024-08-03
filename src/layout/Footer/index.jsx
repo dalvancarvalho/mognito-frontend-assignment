@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export function Footer() {
   return (
     <footer className="w-full min-h-16 border-t">
-      <div className="container m-auto px-4 md:px-24 lg:px-48 py-4 md:py-0 h-full flex flex-col md:flex-row items-center justify-between gap-y-4">
+      <div className="container m-auto px-4 md:px-24 lg:px-48 py-4 md:py-0 h-full flex flex-col-reverse md:flex-row items-center justify-between gap-y-4">
         <p className="text-sm">
           &copy; 2024 <span className="display-font">the News.</span> All Rights Reserved.
         </p>
