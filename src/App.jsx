@@ -10,13 +10,13 @@ import { AppRoutes } from './routes'
 
 export default function App() {
   return (
-    <div className="min-h-dvh grid grid-rows-[auto_1fr_auto]">
+    <>
       <Header />
       <Main>
         <AppRoutes />
       </Main>
       <Footer />
-      {/* {isDevEnvironment && <TwBreakpointMonitor position="top-center" />} */}
-    </div>
+      {isDevEnvironment && <TwBreakpointMonitor position="top-center" />}
+    </>
   )
 }
