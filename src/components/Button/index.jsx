@@ -1,4 +1,4 @@
-/* Button.jsx */
+/* Button/index.jsx */
 
 export function Button({ children, className }) {
   return (

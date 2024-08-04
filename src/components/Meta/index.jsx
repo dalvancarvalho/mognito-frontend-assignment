@@ -1,4 +1,4 @@
-/* Meta.jsx */
+/* Meta/index.jsx */
 
 import { Helmet } from 'react-helmet-async'
 
