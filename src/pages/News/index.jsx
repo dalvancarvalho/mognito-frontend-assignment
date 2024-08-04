@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 
 import { Meta } from '../../components/Meta'
 
-export function News({ data }) {
-  // News page
+export function News({ news }) {
+  // News page (shows a list of news)
 
   return (
     <>
@@ -18,7 +18,7 @@ export function News({ data }) {
             Happening now:
           </h2>
           <div>
-            {data.news.map((item, index) => (
+            {news.map((newsItem, index) => (
               <Link
                 className="mb-2 max-w-max flex items-center gap-3 group/link"
                 key={index}
@@ -30,7 +30,7 @@ export function News({ data }) {
                   size="xs"
                 />
                 <h3 className="font-semibold hover:underline underline-offset-2">
-                  {item.title}
+                  {newsItem.title}
                 </h3>
               </Link>
             ))}
