@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         platypi: ['Platypi Variable', 'serif'],
-        'red-hat': ['Red Hat', 'sans-serif'],
+        'red-hat': ['Red Hat Text Variable', 'sans-serif'],
       },
     },
   },

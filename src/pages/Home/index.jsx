@@ -25,8 +25,9 @@ export function Home() {
           <h2 className="font-platypi text-4xl md:text-7xl text-center">
             This is <span className="display-font">the News.</span>
           </h2>
-          <p className="mt-4 md:mt-6 mb-10 md:mb-12 text-base text-center md:text-xl font-medium text-pretty">
-            Your daily dose of <b>information</b>, directly on your screen!
+          <p className="mt-4 md:mt-6 mb-10 md:mb-12 text-center text-pretty text-base md:text-xl">
+            Your daily dose of <span className="font-medium">information</span>, directly
+            on your screen!
           </p>
           <Dialog>
             <DialogTrigger className="px-[1.5em] py-[.75em] text-base md:text-lg bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition-colors">

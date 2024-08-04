@@ -1,6 +1,6 @@
 /* App.jsx */
 
-import { isDevEnvironment, TwBreakpointMonitor } from 'tw-breakpoint-monitor'
+// import { isDevEnvironment, TwBreakpointMonitor } from 'tw-breakpoint-monitor'
 
 import { Header } from './layout/Header'
 import { Main } from './layout/Main'
@@ -16,7 +16,7 @@ export default function App() {
         <AppRoutes />
       </Main>
       <Footer />
-      {isDevEnvironment && <TwBreakpointMonitor position="top-center" />}
+      {/* {isDevEnvironment && <TwBreakpointMonitor position="top-center" />} */}
     </>
   )
 }
