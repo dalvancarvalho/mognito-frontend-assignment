@@ -1,5 +1,7 @@
 /* Home/index.jsx */
 
+import { useAnimation } from './animation/useAnimation'
+
 import { Button } from '../../components/Button'
 import {
   Dialog,
@@ -13,15 +15,17 @@ import { Meta } from '../../components/Meta'
 export function Home() {
   // Home page
 
+  const animation = useAnimation()
+
   return (
     <>
       <Meta />
       <section className="h-full grid items-center bg-slate-50">
-        <div className="px-4 py-12 md:py-20 flex flex-col items-center">
+        <div ref={animation} className="px-4 py-12 md:py-20 flex flex-col items-center">
           <h2 className="font-platypi text-4xl md:text-7xl text-center">
             This is <span className="display-font">the News.</span>
           </h2>
-          <p className="mt-6 mb-12 text-base text-center md:text-xl font-medium text-pretty">
+          <p className="mt-4 md:mt-6 mb-10 md:mb-12 text-base text-center md:text-xl font-medium text-pretty">
             Your daily dose of <b>information</b>, directly on your screen!
           </p>
           <Dialog>
