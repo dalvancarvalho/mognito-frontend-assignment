@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mognito-dev-adbce-authRole",
+      "UnauthRoleArn": "arn:aws:iam::022499035351:role/amplify-mognito-dev-adbce-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::022499035351:role/amplify-mognito-dev-adbce-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-mognito-dev-adbce-deployment",
+      "UnauthRoleName": "amplify-mognito-dev-adbce-unauthRole",
+      "StackName": "amplify-mognito-dev-adbce",
+      "StackId": "arn:aws:cloudformation:us-east-2:022499035351:stack/amplify-mognito-dev-adbce/00acc470-52b7-11ef-8212-02e9675aa58d",
+      "AmplifyAppId": "d1nb3hcdj797q7"
+    },
+    "categories": {
+      "auth": {
+        "mognito686056e2": {}
+      }
+    }
+  }
+}

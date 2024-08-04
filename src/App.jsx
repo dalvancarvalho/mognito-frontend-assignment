@@ -8,7 +8,7 @@ import { Footer } from './layout/Footer'
 
 import { AppRoutes } from './routes'
 
-export default function App() {
+function App() {
   return (
     <>
       <Header />
@@ -20,3 +20,5 @@ export default function App() {
     </>
   )
 }
+
+export default App
