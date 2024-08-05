@@ -30,8 +30,12 @@ div[data-amplify-authenticator] {
   @apply h-dvh;
 }
 
-.amplify-tabs__item.amplify-tabs__item--active {
-  @apply border-slate-500 text-slate-700 font-bold;
+.amplify-tabs__item {
+  @apply text-slate-700 hover:text-slate-600 font-bold;
+}
+
+.amplify-tabs__item--active {
+  @apply border-slate-500;
 }
 
 .amplify-button.amplify-field-group__control.amplify-button--primary {
