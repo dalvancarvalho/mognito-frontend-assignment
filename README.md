@@ -68,7 +68,7 @@ https://main.d1nb3hcdj797q7.amplifyapp.com/
 - I used React Router to manage the routes for each news article. I'm aware that Next.js's App Router might be a better approach, but since this was my first assignment and I wasn’t sure how much time I would need to complete the requirements, I chose to stick with a technology I'm more familiar with.
 - When the 5-hour window for the assignment had closed, I sent Angel the screenshots of what was accomplished so far. The project was complete except for the login functionality. Since I was allowed to implement the login functionality over the weekend, I chose to keep the same UI, making only a few changes:
 
-  - Removed the home page, which had a hero section with a call to action to log in. Since I hadn't yet tried to implement AWS Amplify, I wasn’t aware that it has a built-in React interface that facilitates the login process. Therefore, the Dialog component from Shadcn and the home page were removed. After the user logs in, the news page with a news list appears.
+  - Removed the home page, which had a hero section with a call to action to log in. Since I hadn't yet tried to implement AWS Amplify, I wasn’t aware that it has a built-in React interface that facilitates the login process. Therefore, the Dialog component from shadcn/ui and the home page were removed. After the user logs in, the news page with a news list appears.
 
   - Added a sign-out button to the header.
 
@@ -88,7 +88,7 @@ https://github.com/user-attachments/assets/a95e8c19-55e8-4ce6-abbb-0f2ea4719eca
 <div align="center">
   <img
     style="width: 700px"
-    src="./assets/user.png"
+    src="./src/assets/user.png"
     alt="Home page screenshot"
   />
 </div>
@@ -98,7 +98,7 @@ https://github.com/user-attachments/assets/a95e8c19-55e8-4ce6-abbb-0f2ea4719eca
 <div align="center">
   <img
     style="width: 700px"
-    src="./assets/deploy.png"
+    src="./src/assets/deploy.png"
     alt="Home page screenshot"
   />
 </div>
