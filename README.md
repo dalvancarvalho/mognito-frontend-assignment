@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/a95e8c19-55e8-4ce6-abbb-0f2ea4719eca
   <img
     style="width: 700px"
     src="./src/assets/user.png"
-    alt="Home page screenshot"
+    alt="User panel screenshot"
   />
 </div>
 
@@ -99,7 +99,7 @@ https://github.com/user-attachments/assets/a95e8c19-55e8-4ce6-abbb-0f2ea4719eca
   <img
     style="width: 700px"
     src="./src/assets/deploy.png"
-    alt="Home page screenshot"
+    alt="Deployment screenshot"
   />
 </div>
 
