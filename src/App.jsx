@@ -7,7 +7,7 @@ import { Main } from './layout/Main'
 import { Footer } from './layout/Footer'
 import { AppRoutes } from './routes'
 
-import theNewsLogo from './assets/the-news.png'
+import theNewsLogo from './assets/the-news.svg'
 
 function App() {
   const components = {
