@@ -7,8 +7,8 @@ import { HelmetProvider } from 'react-helmet-async'
 import App from './App.jsx'
 import awsExports from './aws-exports'
 
-import './styles/index.css'
 import '@aws-amplify/ui-react/styles.css'
+import './styles/index.css'
 
 Amplify.configure(awsExports)
 

@@ -24,3 +24,20 @@
     @apply text-slate-700 hover:text-slate-600 transition-colors;
   }
 }
+
+/* Amplify styles override */
+div[data-amplify-authenticator] {
+  @apply h-dvh;
+}
+
+.amplify-tabs__item.amplify-tabs__item--active {
+  @apply border-slate-500 text-slate-700 font-bold;
+}
+
+.amplify-button.amplify-field-group__control.amplify-button--primary {
+  @apply bg-slate-700 font-medium;
+}
+
+.amplify-button.amplify-field-group__control.amplify-button--link.amplify-button--small {
+  @apply text-slate-700 hover:bg-slate-200;
+}
