@@ -22,7 +22,7 @@ export function News({ news }) {
             <Link
               className="mb-2 max-w-max flex items-center gap-3 group/link"
               key={index}
-              to={'/news/' + index}
+              to={'/' + index}
             >
               <FontAwesomeIcon
                 className="group-hover/link:translate-x-1 transition-transform"

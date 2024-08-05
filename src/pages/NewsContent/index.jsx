@@ -23,7 +23,7 @@ export function NewsContent({ news }) {
             {newsItem.title}
           </h2>
           <p className="text-base md:text-lg">{newsItem.description}</p>
-          <Link className="mt-20" tabIndex="-1" to="/news">
+          <Link className="mt-20" tabIndex="-1" to="/">
             <Button>
               <FontAwesomeIcon size="xs" icon={faArrowLeft} />
               Back to news list
