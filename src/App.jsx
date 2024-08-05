@@ -11,7 +11,7 @@ import theNewsLogo from './assets/the-news.png'
 
 function App() {
   const components = {
-    // Log in screen custom components
+    // Log in screen custom components (from AWS Amplify docs)
 
     Header() {
       const { tokens } = useTheme()
