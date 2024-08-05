@@ -77,7 +77,7 @@ https://main.d1nb3hcdj797q7.amplifyapp.com/
 - I tried to maintain a folder structure that allows the application to scale with minimal hassle, though some components were built in a more 'hard-coded' approach to optimize time (the news list inside the news page, for example, could be a separate component reused elsewhere in a real project).
 - In that same list, I mapped over the news array using the index as key. I know it is not a recommended practice because a list can change in size or its elements can change order and React would lose track of it, losing its ability to refresh only what was changed. Since the list has a fixed size, I used the index to simplify the process.
 
-#### AWS Amplify implementation
+## AWS Amplify implementation
 
 I've included a video and some screenshots of the AWS Amplify implementation below.
 
